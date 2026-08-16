@@ -1,4 +1,4 @@
-# today i gonna learn ab 4 primary built-in data collections
+# Day 2: im gonna learn ab 4 primary built-in data collections
 # each servers a distinct purpose, especially when im preparing data or configuring ML models
 
 # List: an ordered (thứ tự) and mutable (có thể thay đổi) collections
