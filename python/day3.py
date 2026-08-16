@@ -40,7 +40,7 @@ print("stack pop method:", ml_model_stack)
 # is a linear data structure that follows the First in, First out principle
 # this means the item added first will be removed first, like a line of people (whoever queue first will be served first)
 # but unlike stack, using list as a queue is slower than using a deque (collections). Why?
-# using pop(0) in a List-based Queue, Python has to shift all the other items to the left to fill the space of the item is removed
+# using pop(0) in a List-based Queue, Python has to shift all the other items to the left to fill the space of the removed item
 # but popleft() in a deque (doubly-linked list), Python just has to delete the pointer pointing to the first item then point to the next one
 from collections import deque
 label_queue = deque()
